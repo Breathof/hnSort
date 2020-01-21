@@ -22,7 +22,7 @@ getElements = () => {
 
 sort = () => {
     elements.sort((a, b) => {
-        if(getNumber(a) > getNumber(b)){
+        if(getNumber(a) < getNumber(b)){
             return 1;
         } else {
             return -1;
